@@ -3,7 +3,7 @@ html{
 }
 @media (min-width:700px) and (max-width:1440px){
     body{
-        background-image: url("images/bg-desktop.svg");
+        background-image: url("asset/images/bg-desktop.svg");
         background-color: rgb(104, 5, 196);
         background-repeat: no-repeat;
         background-size: contain;
@@ -82,7 +82,7 @@ html{
 }
 @media (min-width:375px) and (max-width:700px){
     body{
-        background-image: url("images/bg-mobile.svg");
+        background-image: url("asset/images/bg-mobile.svg");
         background-color: rgb(125, 6, 236);
         background-repeat: no-repeat;
         background-size: contain;
