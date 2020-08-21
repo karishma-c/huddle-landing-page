@@ -1,14 +1,265 @@
 html{
     overflow-x: hidden;
 }
-@media (min-width:700px) and (max-width:1440px){
+body{
+    background-image: url("asset/images/bg-desktop.svg");
+    background-color: rgb(104, 5, 196);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-x: hidden;
+}
+.logo-img{
+    width: 10%;
+    margin: 30px 30px 40px 50px;
+}
+.desktop-img{
+    margin-left: 48px;
+    position: absolute;
+    width: 40%;
+    margin-bottom: 0;
+}
+.heading{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    line-height: 1.5;
+    margin-left: 26em;
+    margin-right: 6em;
+    color: rgb(236, 234, 234);
+    font-weight: 600;
+}
+.definition{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    line-height: 1.5;
+    margin-left: 35em;
+    margin-right: 12em;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(236, 234, 234);
+}
+.btn{
+    width: 10%;
+    padding: 14px;
+    border-radius: 80px 80px 80px 80px;
+    margin-left: 47.5em;
+    margin-right: 6em;
+    border: none;
+    color: rgb(104, 5, 196);
+}
+.social-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 100px 70px 0 100px;
+}
+.social-icon a{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 1px solid;
+    margin: 0 10px;
+    color: white;
+}
+footer{ 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px; 
+    text-align: center;
+    color: white;
+}
+footer h6{
+    margin: .9em;
+}
+footer h6 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+@media (min-width:320px) and (max-width:550px){
     body{
-        background-image: url("asset/images/bg-desktop.svg");
-        background-color: rgb(104, 5, 196);
+        background-image: url("asset/images/bg-mobile.svg");
+        background-color: rgb(125, 6, 236);
         background-repeat: no-repeat;
         background-size: contain;
         overflow-x: hidden;
     }
+    .logo-img{
+        width: 40%;
+        margin: 30px 0 40px 30px;
+    }
+    .desktop-img{
+        width: 80%;
+        margin-left: 30px;
+    }
+    .heading{
+        text-align: center;
+        margin: 10em 0 0 .2em;
+    }
+    .definition{
+        text-align: center;
+        margin: .6em 0 0 .6em;
+        font-size: 18px;
+    }
+    .btn{
+        font-size: 16px;
+        width: 55%;
+        padding: 15px;
+        margin: 1em 0 0 4.5em;
+    }
+    .social-icon{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 2em 0 0 .2em;
+    }
+    
+    footer{ 
+        font-size: 20px; 
+        font-weight: 600;
+        color: black;
+        text-align: center;
+    }
+    footer h6{
+        margin: 1em 0 0 0.5em;
+    }
+    
+}
+@media (min-width:550px) and (max-width:700px){
+    
+    .logo-img{
+        width: 30%;
+        margin: 30px 0 40px 30px;
+    }
+    .desktop-img{
+        width: 70%;
+        margin-left: 100px;
+    }
+    .heading{
+        text-align: center;
+        margin: 14em 0 0 .2em;
+    }
+    .definition{
+        text-align: center;
+        margin: .6em 0 0 .6em;
+        font-size: 16px;
+    }
+    .btn{
+        font-size: 16px;
+        width: 45%;
+        padding: 15px;
+        margin: 1em 0 0 8em;
+    }
+    .social-icon{
+        margin: 2em 0 0 .2em;
+    }
+    
+    footer{ 
+        font-size: 20px; 
+        font-weight: 600;
+        color: black;
+        text-align: center;
+    }
+    footer h6{
+        margin: 1em 0 0 0.5em;
+    }
+    
+}
+@media (min-width:700px) and (max-width:900px){
+    body{
+        background-image: url("asset/images/bg-desktop.svg");
+    }
+    .logo-img{
+        width: 20%;
+        margin: 20px 0 20px 30px;
+    }
+    .desktop-img{
+        width: 45%;
+        margin-left: 30px;
+        position: absolute;
+    }
+    .heading{
+        position: relative;
+        text-align: left;
+        margin: 1em 0 0 17em;
+    }
+    .definition{
+        position: relative;
+        text-align: left;
+        margin: .6em 0 0 23em;
+        font-size: 18px;
+    }
+    .btn{
+        position: relative;
+        font-size: 16px;
+        width: 22%;
+        padding: 15px;
+        margin: 1em 0 0 26em;
+    }
+    .social-icon{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin: 2em 1em 0 0;
+    }
+    
+    footer{ 
+        font-size: 20px; 
+        font-weight: 600;
+        color: black;
+        text-align: center;
+    }
+    footer h6{
+        margin: .6em 0 0 0.5em;
+    }
+    
+}
+@media (min-width:900px) and (max-width:1100px){
+    
+    .logo-img{
+        width: 12%;
+        margin: 30px 30px 40px 50px;
+    }
+    .desktop-img{
+        margin-left: 48px;
+        position: absolute;
+        width: 40%;
+        margin-bottom: 0;
+    }
+    .heading{
+        position: relative;
+        margin-left: 20.5em;
+        margin-right: 6em;
+    }
+    .definition{
+        position: relative;
+        margin-left: 27.5em;
+        margin-right: 6em;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .btn{
+        width: 12%;
+        padding: 14px;
+        margin-left: 37.5em;
+    }
+    .social-icon{
+        margin: 60px 70px 0 100px;
+    }
+    
+    footer{ 
+        font-size: 20px; 
+        text-align: center;
+    }
+    footer h6{
+        margin: .2em;
+    }
+}
+@media (min-width:1100px) and (max-width:1440px){
+    
     .logo-img{
         width: 10%;
         margin: 30px 30px 40px 50px;
@@ -20,32 +271,25 @@ html{
         margin-bottom: 0;
     }
     .heading{
-        font-family: "Poppins";
         position: relative;
-        line-height: 1.5;
-        margin-left: 28em;
+        margin-left: 27em;
         margin-right: 6em;
-        color: rgb(236, 234, 234);
-        font-weight: 700;
     }
     .definition{
-        font-family: "Open sans";
         position: relative;
-        line-height: 1.5;
-        margin-left: 37.5em;
-        margin-right: 15em;
+        margin-left: 36em;
+        margin-right: 12em;
         font-size: 18px;
         font-weight: 400;
-        color: rgb(236, 234, 234);
     }
     .btn{
         width: 10%;
         padding: 14px;
-        border-radius: 80px 80px 80px 80px;
-        margin-left: 51em;
+        margin-left: 48.5em;
         margin-right: 6em;
-        border: none;
-        color: rgb(104, 5, 196);
+    }
+    .social-icon{
+        margin: 90px 80px 0 100px;
     }
     
     footer{ 
@@ -53,102 +297,10 @@ html{
         text-align: center;
     }
     footer h6{
-        font-size: 20px;
-        text-align: center;
-        color: white;
-        margin: .9em;
-    }
-    footer h6 a{
-        text-decoration: none;
-        color: whitesmoke;
-    }
-    .social-icon{
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end;
-        justify-content: flex-end;
-        margin: 100px 70px 0 100px;
-    }
-    .social-icon a{
-        display: flex;
-        flex-direction: row;
-        padding: 10px;
-        text-decoration: none;
-        border-radius: 50%;
-        border: 1px solid;
-        margin: 0 10px;
-        color: white;
-    }
-}
-@media (min-width:320px) and (max-width:700px){
-    body{
-        background-image: url("asset/images/bg-mobile.svg");
-        background-color: rgb(125, 6, 236);
-        background-repeat: no-repeat;
-        background-size: contain;
-        overflow-x: hidden;
-    }
-    .logo-img{
-        width: 40%;
-        margin: 30px 0 60px 50px;
-    }
-    .desktop-img{
-        width: 90%;
-        margin-left: 20px;
-    }
-    .heading{
-        text-align: center;
-        margin: 3em 0 0 .2em;
-        font-weight: 600;
-        color: rgb(238, 235, 235);
-        line-height: 1.5;
-    }
-    .definition{
-        text-align: center;
-        margin: 1em 0 0 .5em;
-        line-height: 1.5;
         font-size: 18px;
-        color: rgb(238, 235, 235);
-    }
-    .btn{
-        font-size: 16px;
-        width: 55%;
-        padding: 15px;
-        margin: 3em 0 0 5em;
-        border-radius: 80px 80px 80px 80px;
-        border: none;
-        color: rgb(125, 6, 236);
+        font-weight: 600;
+        text-align: center;
+        margin: 1.3em 0 0 0;
     }
     
-    footer{ 
-        font-size: 15px; 
-        text-align: center;
-    }
-    footer h6{
-        font-size: 18px;
-        text-align: center;
-        color: white;
-        margin: 1em 0 0 0.5em;
-    }
-    footer h6 a{
-        text-decoration: none;
-        color: whitesmoke;
-    }
-    .social-icon{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin: 6em 0 0 1em;
-    }
-    .social-icon a{
-        display: flex;
-        flex-direction: row;
-        padding: 10px;
-        text-decoration: none;
-        border-radius: 50%;
-        border: 1px solid;
-        margin: 0 10px;
-        color: white;
-    }
 }
